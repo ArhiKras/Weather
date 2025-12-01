@@ -96,7 +96,7 @@ def run_cli() -> None:
                 except (KeyError, TypeError):
                     print("Получен неожиданный формат ответа от API:")
                     print(weather_data)
-            return
+            continue
 
         try:
             print(
