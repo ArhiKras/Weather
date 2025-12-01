@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.swp
+.Python
+env/
+venv/
+.venv/
+.env
+weather_cache.json
+pip-wheel-metadata/
+build/
+dist/
+*.egg-info/
+
