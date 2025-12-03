@@ -25,7 +25,7 @@ cd Weather
 pip install -r requirements.txt
 
 # Настроить переменные окружения
-cp .env.example .env
+cp docs/env.example .env
 # Отредактировать .env и добавить ваши ключи
 ```
 
@@ -58,14 +58,14 @@ Weather/
 │   └── bot.py             # Telegram бот
 ├── docs/                   # Документация
 │   ├── README.md          # CLI документация
-│   └── BOT_README.md      # Bot документация
+│   ├── BOT_README.md      # Bot документация
+│   └── env.example        # Пример конфигурации
 ├── database/               # База данных
 │   ├── weather_cache.json
 │   └── bot_users_data.json
 ├── .cache/                 # API кэш (10 мин)
 ├── weather_app.py          # Точка входа CLI
 ├── requirements.txt        # Зависимости
-├── .env.example            # Пример конфигурации
 ├── .gitignore             # Git ignore правила
 └── README.md              # Этот файл
 ```
