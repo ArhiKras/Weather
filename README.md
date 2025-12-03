@@ -33,12 +33,12 @@ cp docs/env.example .env
 
 **CLI версия:**
 ```bash
-python weather_app.py
+python CLI_app.py
 ```
 
 **Telegram Bot:**
 ```bash
-python src/bot.py
+python bot_app.py
 ```
 
 ## 📚 Документация
@@ -64,7 +64,8 @@ Weather/
 │   ├── weather_cache.json
 │   └── bot_users_data.json
 ├── .cache/                 # API кэш (10 мин)
-├── weather_app.py          # Точка входа CLI
+├── CLI_app.py              # Точка входа CLI
+├── bot_app.py              # Точка входа Bot
 ├── requirements.txt        # Зависимости
 ├── .gitignore             # Git ignore правила
 └── README.md              # Этот файл

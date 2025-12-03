@@ -170,7 +170,7 @@ Weather/
 ├── api_client.py           # Работа с OpenWeather API
 ├── storage.py              # Кэширование данных
 ├── CLI.py                  # CLI-версия приложения
-├── weather_app.py          # Точка входа для CLI
+├── CLI_app.py              # Точка входа для CLI
 ├── database/               # Папка с файлами базы данных
 │   ├── bot_users_data.json # Данные пользователей бота (создается автоматически)
 │   └── weather_cache.json  # Кэш погодных данных
