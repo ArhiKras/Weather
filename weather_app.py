@@ -1,5 +1,5 @@
-from api_client import API_KEY
-from cli import run_cli
+from src.api_client import API_KEY
+from src.CLI import run_cli
 
 
 def main() -> None:
