@@ -72,15 +72,27 @@ Weather/
 
 ## ⚙️ Конфигурация
 
-Создайте файл `.env` в корне проекта:
+В папке `docs/` находится файл `env.example` с примером конфигурации.
+
+Создайте файл `.env` в корне проекта на основе примера:
+
+```bash
+cp docs/env.example .env
+```
+
+Содержимое `.env`:
 
 ```env
-# OpenWeather API
-API_KEY=your_openweather_api_key
+# OpenWeather API Configuration
+# Получите ключ на https://openweathermap.org/api
+API_KEY=your_openweathermap_api_key_here
 
-# Telegram Bot
-BOT_TOKEN=your_telegram_bot_token
+# Telegram Bot Configuration
+# Получите токен у @BotFather в Telegram
+BOT_TOKEN=your_telegram_bot_token_here
 ```
+
+После создания файла замените значения на ваши реальные ключи API.
 
 ## 📦 Зависимости
 
